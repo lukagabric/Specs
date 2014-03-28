@@ -7,5 +7,4 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/lukagabric/LASIImageView'}
   s.source_files = 'LASIImageView/Classes/LASIImageView/*.{h,m}'
   s.requires_arc = true
-  s.license      = { :type => 'MIT', :file => 'LICENSE.markdown' }
 end
