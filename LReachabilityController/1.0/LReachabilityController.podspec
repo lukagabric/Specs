@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "LReachabilityController"
   s.version      = "1.0"
-  s.summary      = “iOS”
+  s.summary      = "iOS Reachability Helper/Extension Singleton"
   s.platform     = :ios, '6.0'
   s.homepage     = "https://github.com/lukagabric/LReachabilityController"
   s.source       = { :git => 'https://github.com/lukagabric/LReachabilityController'}
