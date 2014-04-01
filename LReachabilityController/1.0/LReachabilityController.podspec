@@ -6,5 +6,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/lukagabric/LReachabilityController"
   s.source       = { :git => 'https://github.com/lukagabric/LReachabilityController'}
   s.source_files = 'LReachabilityController/Classes/Core/LReachabilityController/*.{h,m}'
+  s.dependency 'Reachability'
   s.requires_arc = true
 end
