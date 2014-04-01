@@ -5,6 +5,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/lukagabric/LCDDataSource'}
   s.source_files = "LCDDataSource/LCDDataSource/Classes/Core/ClassExtensions/*.{h,m}", "LCDDataSource/LCDDataSource/Classes/Core/LAbstractASICDDataSource/*.{h,m}", "LCDDataSource/LCDDataSource/Classes/Core/LAbstractCDParser/*.{h,m}", "LCDDataSource/LCDDataSource/Classes/Core/LCoreDataController/*.{h,m}"
   s.framework    = 'CoreData'
-  s.dependency 'ASIHTTPRequest'
+  s.dependency 'ASIHTTPRequest', 'MBProgressHUD'
   s.requires_arc = true
 end
