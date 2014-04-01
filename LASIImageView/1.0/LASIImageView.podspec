@@ -6,5 +6,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/lukagabric/LASIImageView"
   s.source       = { :git => 'https://github.com/lukagabric/LASIImageView'}
   s.source_files = 'LASIImageView/Classes/LASIImageView/*.{h,m}'
+  s.dependency 'ASIHTTPRequest'
   s.requires_arc = true
 end

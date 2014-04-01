@@ -5,5 +5,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/lukagabric/LAbstractViewController'}
   s.source_files = "LCDDataSource/LCDDataSource/Classes/Core/LAbstractViewController/*.{h,m}"
   s.framework    = 'CoreData'
+  s.dependency 'LReachabilityController'
   s.requires_arc = true
 end

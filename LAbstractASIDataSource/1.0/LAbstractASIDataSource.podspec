@@ -4,5 +4,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source       = { :git => 'https://github.com/lukagabric/LAbstractASIDataSource'}
   s.source_files = "LAbstractASIDataSource/Classes/LAbstractASIDataSource.m", "LAbstractASIDataSource/Classes/LAbstractASIDataSource.h", "LAbstractASIDataSource/Classes/LAbstractParser.m", "LAbstractASIDataSource/Classes/LAbstractParser.h", "LAbstractASIDataSource/Classes/LParserInterface.h"
+  s.dependency 'ASIHTTPRequest'
+  s.dependency 'MBProgressHUD'
   s.requires_arc = true
 end
